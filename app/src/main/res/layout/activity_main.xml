@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.jtanuki.go.petapp.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/sand"
+        android:layout_width="@android:dimen/thumbnail_height"
+        android:layout_height="@android:dimen/thumbnail_width"
+        app:srcCompat="@drawable/damnit735"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp" />
+
+
+
+    <ImageView
+        android:id="@+id/godzilla"
+        android:layout_width="@android:dimen/thumbnail_height"
+        android:layout_height="@android:dimen/thumbnail_width"
+        android:layout_marginTop="34dp"
+        app:srcCompat="@drawable/lowecase123"
+        android:layout_below="@+id/sand"
+        android:layout_alignLeft="@+id/sand"
+        android:layout_alignStart="@+id/sand" />
+</RelativeLayout>
